@@ -1,0 +1,19 @@
+# run python file 
+	python3 file_name.py
+	./file_name.py
+	
+# get input from console
+	list -> 
+		list_name = list(map(int, input().split()))
+		list_name = [int(x) for x in input().split()]
+		for(int i=0; i<n; i++) cin >> ar[i]; c++
+		
+	multiple-variable->
+		a, b, c = map(int, input().split())
+		cin >> a >> b >> c; 	c++
+		a, b, c = [int(x) for x in input().spli()]
+
+# dictionary
+	from collections import defaultdict
+	dict_name = defatultdic(list)	 python
+	map<int, vector<int>> m; 	 c++

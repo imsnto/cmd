@@ -1,0 +1,28 @@
+# how do i install xampp? change the permission to the installer
+
+	chmod 755 xampp-linux-*-installer.run
+
+# run the installer
+
+   	sudo ./xampp-linux-*-installer.run
+
+
+# to start xampp simply call this command
+
+	sudo /opt/lampp/lampp start
+
+# also there is a graphical tool that you can use to manage your server easily. you can start
+   this tool with the following commands:
+   
+	cd /opt/lampp
+	sudo ./manager-linux-x64.run
+
+# stop xampp
+	sudo /opt/lampp/lampp stop
+
+
+# read write and execute permission
+	sudo chown -R $USER:$USER folder-name
+	
+# open it on vs code
+	code .

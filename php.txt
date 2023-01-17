@@ -1,0 +1,18 @@
+# variable 
+
+	$var_name = initialize;
+
+# constant
+
+	define('const_name', assign_val, true/false);
+	const const_name = assign_val;
+
+# print anything
+
+	echo "this is : {$var}";
+	print("thyis");
+	
+# details types
+	var_dump($var_name);
+	
+# 
