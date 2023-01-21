@@ -7,13 +7,17 @@
 # add new column
 
 	ALTER TABLE table_name
-		ADD COLUMN column_name column_definition;
+		ADD COLUMN col_name col_definition,
+		ADD COLUMN col_name col_definition;
 		
 
 # modify a column
 	
-	ALTER TABLE table_name
+	* ALTER TABLE table_name
 		MODIFY COLUMN column_name column_definition ;
+	
+	* ALTER TABLE table-name
+		CHANGE old_col new_col new_col_definition; -> MariaDB
 		
 		
 # drop column
@@ -21,5 +25,16 @@
 	ALTER TABLE table_name
 		DROP COLUMN column-name;
 		
-# 
+# drop row
+
+	* DELETE FROM tb-name
+		WHERE expression;
+
+		
+
+#1 ALTER TABLE tb-name
+
+	ADD COLUMN col-name col-def NOT NULL AUTO_INCREMENT 
+		PRIMARY KEY FIRST;
+
 
